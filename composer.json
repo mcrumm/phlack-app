@@ -1,0 +1,30 @@
+{
+    "name": "mcrumm/phlack-app",
+    "description": "Silex Application running Phlack",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Crumm",
+            "email": "mike@crumm.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "silex/silex": "~1.1",
+        "mcrumm/phlack": ">=0.4-dev@dev",
+        "symfony/expression-language": "~2.4",
+        "stack/builder": "~1.0@dev",
+        "stack/url-map": "~1.0@dev",
+        "stack/run": "~1.0@dev"
+    },
+    "config": {
+        "bin-dir":"bin/"
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "heroku": {
+            "document-root": "web",
+            "index-document": "index.php"
+        }
+    }
+}
