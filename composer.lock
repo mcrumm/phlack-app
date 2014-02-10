@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "2d06accd6bb29b17237fac55bc5d445d",
+    "hash": "664b468656c1c1d2a569446f98cb4750",
     "packages": [
         {
             "name": "doctrine/collections",
@@ -171,12 +171,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mcrumm/phlack.git",
-                "reference": "ee0fbe8569a397cdc3a3c4279cee617f2a626272"
+                "reference": "652db5104af4fb55193564b06bf4ecf0e69a3127"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mcrumm/phlack/zipball/ee0fbe8569a397cdc3a3c4279cee617f2a626272",
-                "reference": "ee0fbe8569a397cdc3a3c4279cee617f2a626272",
+                "url": "https://api.github.com/repos/mcrumm/phlack/zipball/652db5104af4fb55193564b06bf4ecf0e69a3127",
+                "reference": "652db5104af4fb55193564b06bf4ecf0e69a3127",
                 "shasum": ""
             },
             "require": {
@@ -204,6 +204,12 @@
                 "bin/phlackbot"
             ],
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.4.x-dev",
+                    "dev-develop": "0.5.x-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "": "src",
@@ -223,7 +229,7 @@
                 }
             ],
             "description": "Slack WebHook integration in PHP",
-            "time": "2014-02-10 09:54:43"
+            "time": "2014-02-10 19:28:15"
         },
         {
             "name": "pimple/pimple",
