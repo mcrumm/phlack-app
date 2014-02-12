@@ -11,6 +11,7 @@
     "require": {
         "php": ">=5.4",
         "silex/silex": "~1.1",
+        "monolog/monolog": ">=1.0.0",
         "mcrumm/phlack": "0.4.*@dev",
         "symfony/expression-language": "~2.4",
         "stack/builder": "~1.0@dev",
@@ -20,11 +21,16 @@
     "config": {
         "bin-dir":"bin/"
     },
+    "autoload": {
+        "psr-0": {
+            "": "src"
+        }
+    },
     "minimum-stability": "stable",
     "extra": {
         "heroku": {
-            "document-root": "web",
-            "index-document": "index.php"
+            "document-root":    "web",
+            "index-document":   "index.php"
         }
     }
 }
