@@ -22,7 +22,7 @@ $bot->match('/', function (Request $request) use ($bot) {
 
     return (new MainframeKernel())
         ->attach(new Bot\ExpressionBot('/math'))
-        ->attach(new Bot\RepeaterBot())
+        ->attach(new \Crummy\Bots\FarvaBot())
         ->handle($request)
         ;
 

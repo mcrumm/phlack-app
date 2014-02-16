@@ -12,7 +12,7 @@
         "php": ">=5.4",
         "silex/silex": "~1.1",
         "monolog/monolog": ">=1.0.0",
-        "mcrumm/phlack": "dev-develop@dev",
+        "mcrumm/phlack": "0.5.*-dev@dev",
         "symfony/expression-language": "~2.4",
         "stack/builder": "~1.0@dev",
         "stack/url-map": "~1.0@dev",

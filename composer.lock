@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "ba54acfbfac023147210a34fbf4ba096",
+    "hash": "7f2c63edeacb670c371199e2326f9906",
     "packages": [
         {
             "name": "doctrine/collections",
@@ -171,12 +171,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mcrumm/phlack.git",
-                "reference": "9ea2ab14ad1b2ed8951a9adc2cd09edcbd93bb3c"
+                "reference": "fef51a697cf101e64a133d0a1105cef86e756134"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mcrumm/phlack/zipball/9ea2ab14ad1b2ed8951a9adc2cd09edcbd93bb3c",
-                "reference": "9ea2ab14ad1b2ed8951a9adc2cd09edcbd93bb3c",
+                "url": "https://api.github.com/repos/mcrumm/phlack/zipball/fef51a697cf101e64a133d0a1105cef86e756134",
+                "reference": "fef51a697cf101e64a133d0a1105cef86e756134",
                 "shasum": ""
             },
             "require": {
@@ -229,7 +229,7 @@
                 }
             ],
             "description": "Slack WebHook integration in PHP",
-            "time": "2014-02-16 09:56:56"
+            "time": "2014-02-16 10:53:11"
         },
         {
             "name": "monolog/monolog",
