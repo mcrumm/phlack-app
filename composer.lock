@@ -3,20 +3,20 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "7f2c63edeacb670c371199e2326f9906",
+    "hash": "dbd1c2c819e54b551e8ad291e7328244",
     "packages": [
         {
             "name": "doctrine/collections",
-            "version": "v1.1",
+            "version": "v1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/collections.git",
-                "reference": "560f29c39cfcfbcd210e5d549d993a39d898b04b"
+                "reference": "b99c5c46c87126201899afe88ec490a25eedd6a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/collections/zipball/560f29c39cfcfbcd210e5d549d993a39d898b04b",
-                "reference": "560f29c39cfcfbcd210e5d549d993a39d898b04b",
+                "url": "https://api.github.com/repos/doctrine/collections/zipball/b99c5c46c87126201899afe88ec490a25eedd6a2",
+                "reference": "b99c5c46c87126201899afe88ec490a25eedd6a2",
                 "shasum": ""
             },
             "require": {
@@ -25,7 +25,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1.x-dev"
+                    "dev-master": "1.2.x-dev"
                 }
             },
             "autoload": {
@@ -71,7 +71,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2013-03-07 12:15:54"
+            "time": "2014-02-03 23:07:43"
         },
         {
             "name": "guzzle/guzzle",
@@ -171,16 +171,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mcrumm/phlack.git",
-                "reference": "fef51a697cf101e64a133d0a1105cef86e756134"
+                "reference": "d67c92b9c0d080c9b88193027460521c4e7ef0e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mcrumm/phlack/zipball/fef51a697cf101e64a133d0a1105cef86e756134",
-                "reference": "fef51a697cf101e64a133d0a1105cef86e756134",
+                "url": "https://api.github.com/repos/mcrumm/phlack/zipball/d67c92b9c0d080c9b88193027460521c4e7ef0e8",
+                "reference": "d67c92b9c0d080c9b88193027460521c4e7ef0e8",
                 "shasum": ""
             },
             "require": {
-                "doctrine/collections": "1.1.*",
+                "doctrine/collections": ">=1.0",
                 "guzzle/guzzle": "~3.8",
                 "php": ">=5.4",
                 "symfony/options-resolver": "~2.4"
@@ -206,8 +206,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.4.x-dev",
-                    "dev-develop": "0.5.x-dev"
+                    "dev-master": "0.5.x-dev",
+                    "dev-develop": "0.6.x-dev"
                 }
             },
             "autoload": {
@@ -216,20 +216,21 @@
                     "Context": "features"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "authors": [
                 {
                     "name": "Michael Crumm",
-                    "email": "mike@crumm.net",
-                    "homepage": "http://crumm.net",
-                    "role": "Developer"
+                    "email": "mike@crumm.net"
                 }
             ],
-            "description": "Slack WebHook integration in PHP",
-            "time": "2014-02-16 10:53:11"
+            "description": "Slack API and WebHook integration in PHP",
+            "support": {
+                "source": "https://github.com/mcrumm/phlack/tree/develop",
+                "issues": "https://github.com/mcrumm/phlack/issues"
+            },
+            "time": "2014-03-05 17:50:36"
         },
         {
             "name": "monolog/monolog",
@@ -572,12 +573,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stackphp/url-map.git",
-                "reference": "46745ee2f1212417d970f1ec2380b18fa82510a3"
+                "reference": "82801a76778003030f0ee0753df6ec955a56514d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stackphp/url-map/zipball/46745ee2f1212417d970f1ec2380b18fa82510a3",
-                "reference": "46745ee2f1212417d970f1ec2380b18fa82510a3",
+                "url": "https://api.github.com/repos/stackphp/url-map/zipball/82801a76778003030f0ee0753df6ec955a56514d",
+                "reference": "82801a76778003030f0ee0753df6ec955a56514d",
                 "shasum": ""
             },
             "require": {
@@ -614,7 +615,7 @@
                 }
             ],
             "description": "URL Map middleware.",
-            "time": "2014-02-12 11:19:44"
+            "time": "2014-02-17 11:55:02"
         },
         {
             "name": "symfony/debug",
